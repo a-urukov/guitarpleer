@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title='guitar'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://yastatic.net/jquery/3.1.0/jquery.js')
+    script(src='/javascripts/index.js')
+  body
+      .brands
+          - (brands || []).forEach(function(brand) {
+              .brand
+                a.brandlink(href='#' + brand)=brand
+          - });
+
+      block content

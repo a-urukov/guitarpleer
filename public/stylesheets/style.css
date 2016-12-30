@@ -1,0 +1,58 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.brands
+{
+    width: 60%;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+}
+
+.brand
+{
+    float: left;
+    padding: 0 10px 5px 0;
+}
+
+.item
+{
+    margin-bottom: 7px;
+}
+
+.item a
+{
+    text-decoration: none;
+    color: #000
+}
+
+.item a:hover
+{
+    text-decoration: underline;
+}
+
+
+.created,
+.author
+{
+    color: #888;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.author
+{
+    font-size: 0.8em;
+}
+
+li
+{
+    list-style: none;
+}
+

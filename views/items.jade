@@ -1,0 +1,9 @@
+ul
+  - items && Object.keys(items).forEach(function(s, n) {
+  - var created = items[s].created ? new Date(items[s].created) : new Date();
+    li.item
+      a(href=items[s].href, target='_blank')
+        span=items[s].text
+        span.created=created.getDate() + '.' + (created.getMonth() + 1)
+        span.author='(' + items[s].author + ')'
+  - });
